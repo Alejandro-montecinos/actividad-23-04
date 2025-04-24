@@ -1,8 +1,7 @@
-package com.example.actividad_23_04.controller;
+package com.example.actividad_23_04.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -25,6 +24,7 @@ public class helloworld {
     public String divi(int num1, int num2){
         return "/api/division " + String.valueOf( (double) num1/num2);
     }
+
 
 
 
